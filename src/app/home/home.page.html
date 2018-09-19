@@ -1,0 +1,21 @@
+<ion-header >
+  <ion-toolbar> 
+    <ion-title >
+        <h1 align="center">Kuras</h1>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-tabs>
+    <ion-tab label="Feed" icon="list" href="/tabs/(feed:feed)">
+      <ion-router-outlet name="feed"></ion-router-outlet>
+    </ion-tab>
+    <ion-tab label="Add" icon="add" href="/tabs/(add:add)">
+      <ion-router-outlet name="add"></ion-router-outlet>
+    </ion-tab>
+    <ion-tab label="Profile" icon="person" href="/tabs/(profile:profile)">
+      <ion-router-outlet name="profile"></ion-router-outlet>
+    </ion-tab>
+</ion-tabs>
+
